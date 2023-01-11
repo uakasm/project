@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    /* font-size: 50px; */
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.leftmain{
+    width: 40%;
+}
+.leftmain h1{
+    font-size: 50px;
+}
+.leftmain p{
+    margin: 5% 0; 
+}
+.leftmain button{
+    border: none;
+    background-color: #3b855b ;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
